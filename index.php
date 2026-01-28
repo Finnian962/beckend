@@ -66,7 +66,8 @@ $result = $statement->fetchAll(PDO::FETCH_OBJ);
                 <td><?= $rollercoaster->YOFC ?></td>
                 <td class = "text-center" >
                   <a href="update.php?id=<?= $rollercoaster->ID;?>">
-                    <i class = "bi bi-pencil-sqaure text-success"></i>
+                <i class="bi bi-pencil-square text-success"></i>
+
               </a>
             </td>
 
